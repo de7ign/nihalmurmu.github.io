@@ -4,7 +4,7 @@
 
 [medium](https://medium.com/@nhlmrm)
 
-![cover](https://raw.githubusercontent.com/nihalmurmu/nihalmurmu.github.io/master/when-youre-really-a-backend-developer-but-market-yourself-as-34353166.png?token=AeROwkTgBnBCarJHMeWnhElMbpsEQDMSks5b41TQwA%3D%3D)
+![cover](https://raw.githubusercontent.com/nihalmurmu/nihalmurmu.github.io/master/when-youre-really-a-backend-developer-but-market-yourself-as-34353166.png?token=AeROwjLuEQ7dwZLmExqQw_IUqQSLQzQQks5b9-P0wA%3D%3D)
 
 *sips coffee* 
 
