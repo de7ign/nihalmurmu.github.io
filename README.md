@@ -1,6 +1,6 @@
 
 # Nihal Murmu 
-{Available for hiring}
+{Available for hiring}   
 [download resume](https://nihalmurmu.me/resume.pdf)
 
 [medium](https://medium.com/@nhlmrm)
