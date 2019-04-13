@@ -53,6 +53,7 @@ B.Tech (Information Technology) | Silicon Institute of Technology | B.P.U.T (odi
 
 ### Achievements 
 + Completed the Blockchain course under NPTEL (IIT(KGP) in collaboration with IBM)
++ Internship at Forants Interactive Systems Pvt. Ltd.
 + Finalist for the Smart India Hackathon, 2018
 
 ### Personal Information
