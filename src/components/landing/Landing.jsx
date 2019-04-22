@@ -31,7 +31,7 @@ class Landing extends Component {
       <div className={classes.root}>
         <header className={classes.header}>
           <Typography variant="h2" color="inherit">
-            Hello I'm Nihal Murmu
+            Hello, I'm Nihal Murmu
             <Typography variant="h4" gutterBottom color="inherit" align="left">
               Full Stack Developer
             </Typography>
