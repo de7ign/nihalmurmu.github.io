@@ -109,9 +109,9 @@ class About extends Component {
     ];
     return (
       <div className={classes.root}>
-        <header className={classes.aboutHeader}>
+        <div className={classes.aboutHeader}>
           <div className={classes.about}>
-          <Typography
+            <Typography
               variant="h2"
               color="inherit"
               gutterBottom
@@ -119,7 +119,7 @@ class About extends Component {
             >
               About
             </Typography>
-            <Divider/>
+            <Divider />
             <Typography
               variant="body1"
               color="inherit"
@@ -192,7 +192,7 @@ class About extends Component {
               </Typography>
             </Grid>
           </Grid>
-        </header>
+        </div>
       </div>
     );
   }
