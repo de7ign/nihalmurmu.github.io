@@ -1,14 +1,12 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
-import { Typography, Grid, Divider } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import Button from "@material-ui/core/Button";
-
-let imgUrl =
-  "https://images.unsplash.com/photo-1524721696987-b9527df9e512?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=80";
+import background from "./project-background.jpeg";
 
 //"https://images.unsplash.com/photo-1555852224-2a3e675fc47e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80";
 
@@ -111,7 +109,7 @@ let imgUrl =
 const styles = theme => ({
   root: {
     backgroundColor: "#31394C",
-    backgroundImage: `url(${imgUrl})`,
+    backgroundImage: `url(${background})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
 

@@ -2,15 +2,14 @@ import React, { Component } from "react";
 import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
+import background from "./landing-background.jpeg";
 
-let imgUrl =
-  "https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80";
 const styles = theme => ({
   root: {
     backgroundColor: "#31394C"
   },
   header: {
-    backgroundImage: `url(${imgUrl})`,
+    backgroundImage: `url(${background})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     minHeight: "100vh",
