@@ -13,7 +13,6 @@ const styles = theme => ({
     backgroundImage: `url(${imgUrl})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    backgroundPosition: "50%",
     minHeight: "100vh",
     display: "flex",
     flexDirection: "column",

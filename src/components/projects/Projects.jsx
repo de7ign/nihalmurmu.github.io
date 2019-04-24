@@ -114,7 +114,6 @@ const styles = theme => ({
     backgroundImage: `url(${imgUrl})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-    backgroundPosition: "50%",
 
     display: "flex",
     flexDirection: "row",
