@@ -1,110 +1,14 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
-import { Typography } from "@material-ui/core";
-import Card from "@material-ui/core/Card";
-import CardActions from "@material-ui/core/CardActions";
-import CardContent from "@material-ui/core/CardContent";
-import Button from "@material-ui/core/Button";
+import {
+  Typography,
+  Card,
+  CardActions,
+  CardContent,
+  Button
+} from "@material-ui/core";
 import background from "./project-background.jpeg";
-
-//"https://images.unsplash.com/photo-1555852224-2a3e675fc47e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80";
-
-// https://images.unsplash.com/photo-1524721696987-b9527df9e512?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1490&q=80
-
-//https://images.unsplash.com/photo-1534312527009-56c7016453e6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80
-
-// https://images.unsplash.com/photo-1535370976884-f4376736ab06?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80
-
-// const styles = theme => ({
-//   root: {
-//     flexGrow: 1,
-//     backgroundColor: "#31394C"
-//   },
-//   project: {
-//     //backgroundImage: `url(${imgUrl})`,
-//     backgroundRepeat: "no-repeat",
-//     backgroundSize: "cover",
-//     backgroundPosition: "50%",
-
-//     // display: "flex",
-//     // flexDirection: "column",
-
-//     alignItems: "center",
-//     justifyContent: "center",
-//     textAlign: "center",
-//   },
-//   projectHeader: {
-//     marginTop: theme.spacing.unit * 5,
-
-//    // maxWidth: "800px",
-//     color: "#ffffff"
-//   },
-//   projectContent: {
-//     margin: theme.spacing.unit * 2,
-//     maxWidth: "800px"
-//     // width: "800px",
-//     // color: "#ffffff"
-
-//   },
-//   card: {
-//    // maxWidth: "800px",
-//     textAlign: "left",
-//     alignItems: "center",
-//     justifyContent: "center"
-//   },
-//   bullet: {
-//     display: "inline-block",
-//     margin: "0 2px",
-//     transform: "scale(0.8)"
-//   },
-//   title: {
-//     fontSize: 14
-//   },
-//   pos: {
-//     marginBottom: 12
-//   }
-// });
-
-/*
-=====
-*/
-
-// const styles = theme => ({
-//   root: {
-//     flexGrow: 1,
-//     backgroundColor: "#31394C",
-//     //backgroundImage: `url(${imgUrl})`,
-//     backgroundRepeat: "no-repeat",
-//     backgroundSize: "cover",
-//     backgroundPosition: "50%",
-//     flexDirection: "row",
-//     alignItems: "center",
-//     justifyContent: "center",
-//     textAlign: "center"
-//   },
-//   project: {
-//     maxWidth: "800px"
-//   },
-//   projectHeader: {
-//     marginTop: theme.spacing.unit * 5,
-//     color: "#ffffff"
-//   },
-//   projectContent: {},
-// card: {
-//   margin: theme.spacing.unit * 2,
-//   minWidth: 275,
-//   textAlign: "left"
-// },
-// bullet: {
-//   display: "inline-block",
-//   margin: "0 2px",
-//   transform: "scale(0.8)"
-// },
-// pos: {
-//   marginBottom: 12
-// }
-// });
 
 const styles = theme => ({
   root: {
