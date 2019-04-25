@@ -15,10 +15,34 @@ const styles = theme => ({
     minHeight: "100vh",
     display: "flex",
     flexDirection: "column",
+    color: "#ffffff",
     alignItems: "center",
-    justifyContent: "center",
-    textAlign: "center",
-    color: "#ffffff"
+    justifyContent: "center"
+  },
+  landingContent: {
+    textAlign: "left"
+  },
+  c1: {
+    [theme.breakpoints.down("md")]: {
+      fontSize: 48 / 16 + "rem"
+    },
+    [theme.breakpoints.down("sm")]: {
+      fontSize: 34 / 16 + "rem"
+    },
+    [theme.breakpoints.down("xs")]: {
+      fontSize: 30 / 16 + "rem"
+    }
+  },
+  c2: {
+    [theme.breakpoints.down("md")]: {
+      fontSize: 34 / 16 + "rem"
+    },
+    [theme.breakpoints.down("sm")]: {
+      fontSize: 24 / 16 + "rem"
+    },
+    [theme.breakpoints.down("sm")]: {
+      fontSize: 20 / 16 + "rem"
+    }
   }
 });
 
@@ -28,12 +52,20 @@ class Landing extends Component {
     return (
       <div className={classes.root}>
         <header className={classes.header}>
-          <Typography variant="h2" color="inherit">
-            Hello, I'm Nihal Murmu
-            <Typography variant="h4" gutterBottom color="inherit" align="left">
+          <div className="landingContent">
+            <Typography variant="h2" color="inherit" className={classes.c1}>
+              Hello, I'm Nihal Murmu
+            </Typography>
+            <Typography
+              variant="h4"
+              gutterBottom
+              color="inherit"
+              align="left"
+              className={classes.c2}
+            >
               Full Stack Developer
             </Typography>
-          </Typography>
+          </div>
         </header>
       </div>
     );
