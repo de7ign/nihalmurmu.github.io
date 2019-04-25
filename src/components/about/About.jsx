@@ -1,8 +1,12 @@
 import React, { Component } from "react";
-import Typography from "@material-ui/core/Typography";
 import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
-import { Grid, IconButton, Tooltip, Divider } from "@material-ui/core";
+import {
+  Grid,
+  IconButton,
+  Tooltip,
+  Typography,
+  withStyles
+} from "@material-ui/core";
 import { Mail, InsertDriveFile } from "@material-ui/icons";
 
 const styles = theme => ({
@@ -19,18 +23,40 @@ const styles = theme => ({
   about: {
     maxWidth: "800px"
   },
+  aboutHead: {
+    [theme.breakpoints.down("xs")]: {
+      fontSize: 42 / 16 + "rem"
+    }
+  },
   aboutContent: {
-    margin: theme.spacing.unit * 5
+    margin: theme.spacing.unit * 5,
+    [theme.breakpoints.down("sm")]: {
+      margin: theme.spacing.unit * 4
+    },
+    [theme.breakpoints.down("xs")]: {
+      margin: theme.spacing.unit * 3
+    }
   },
   icons: {
-    margin: theme.spacing.unit * 3
+    margin: theme.spacing.unit * 3,
+    [theme.breakpoints.down("xs")]: {
+      margin: theme.spacing.unit
+    }
   },
   profile: {
     display: "inline-flex",
-    justifyContent: "center"
+    justifyContent: "center",
+    margin: theme.spacing.unit * 3,
+    [theme.breakpoints.down("xs")]: {
+      margin: 0,
+      padding: 0
+    }
   },
   profileSection: {
-    width: 300
+    width: 300,
+    [theme.breakpoints.only("sm")]: {
+      width: 200
+    }
   },
   "& a": {
     textDecoration: "none"
@@ -111,15 +137,18 @@ class About extends Component {
       <div className={classes.root}>
         <div className={classes.aboutHeader}>
           <div className={classes.about}>
-            <Typography
-              variant="h2"
-              color="inherit"
-              gutterBottom
-              className={classes.aboutContent}
-            >
-              About
-            </Typography>
-            <Divider />
+            <div className={classes.aboutContent}>
+              <Typography
+                variant="h2"
+                color="inherit"
+                gutterBottom
+                className={classes.aboutHead}
+              >
+                About
+                <hr />
+              </Typography>
+            </div>
+
             <Typography
               variant="body1"
               color="inherit"
@@ -164,7 +193,7 @@ class About extends Component {
           <Grid
             container
             justify="center"
-            spacing={32}
+            spacing={16}
             className={classes.profile}
           >
             <Grid item className={classes.profileSection}>
