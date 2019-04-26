@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
 import {
   Typography,
   Card,
   CardContent,
   CardHeader,
   IconButton,
-  Tooltip
+  Tooltip,
+  withStyles
 } from "@material-ui/core";
 import { Language } from "@material-ui/icons";
 import background from "./project-background.jpeg";
@@ -18,7 +18,6 @@ const styles = theme => ({
     backgroundImage: `url(${background})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
-
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
@@ -26,13 +25,13 @@ const styles = theme => ({
     textAlign: "center",
     color: "#ffffff"
   },
-  about: {
+  project: {
     width: "100%",
     maxWidth: "800px",
     marginTop: theme.spacing.unit * 5,
     marginBottom: theme.spacing.unit * 5
   },
-  aboutContent: {
+  projectContent: {
     margin: theme.spacing.unit * 5,
     [theme.breakpoints.down("xs")]: {
       fontSize: 42 / 16 + "rem"
@@ -47,9 +46,6 @@ const styles = theme => ({
     display: "inline-block",
     margin: "0 2px",
     transform: "scale(0.8)"
-  },
-  pos: {
-    marginBottom: 12
   },
   projectTitle: {
     [theme.breakpoints.down("xs")]: {
@@ -150,12 +146,12 @@ class Projects extends Component {
 
     return (
       <div className={classes.root}>
-        <div className={classes.about}>
+        <div className={classes.project}>
           <Typography
             variant="h2"
             color="inherit"
             gutterBottom
-            className={classes.aboutContent}
+            className={classes.projectContent}
           >
             Projects
             <hr />

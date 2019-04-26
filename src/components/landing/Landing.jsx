@@ -1,7 +1,6 @@
 import React, { Component } from "react";
-import Typography from "@material-ui/core/Typography";
+import { Typography, withStyles } from "@material-ui/core";
 import PropTypes from "prop-types";
-import { withStyles } from "@material-ui/core/styles";
 import background from "./landing-background.jpeg";
 
 const styles = theme => ({
@@ -22,7 +21,7 @@ const styles = theme => ({
   landingContent: {
     textAlign: "left"
   },
-  c1: {
+  content1: {
     [theme.breakpoints.down("md")]: {
       fontSize: 48 / 16 + "rem"
     },
@@ -33,7 +32,7 @@ const styles = theme => ({
       fontSize: 30 / 16 + "rem"
     }
   },
-  c2: {
+  content2: {
     [theme.breakpoints.down("md")]: {
       fontSize: 34 / 16 + "rem"
     },
@@ -53,7 +52,11 @@ class Landing extends Component {
       <div className={classes.root}>
         <header className={classes.header}>
           <div className="landingContent">
-            <Typography variant="h2" color="inherit" className={classes.c1}>
+            <Typography
+              variant="h2"
+              color="inherit"
+              className={classes.content1}
+            >
               Hello, I'm Nihal Murmu
             </Typography>
             <Typography
@@ -61,7 +64,7 @@ class Landing extends Component {
               gutterBottom
               color="inherit"
               align="left"
-              className={classes.c2}
+              className={classes.content2}
             >
               Full Stack Developer
             </Typography>
