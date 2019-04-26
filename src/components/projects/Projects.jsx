@@ -85,18 +85,58 @@ class Projects extends Component {
     const { classes } = this.props;
     const projects = [
       {
-        title: "Project title 1",
-        tags: ["Tag1", "Tag2", "Tag3"],
-        content: "lorem ipsum sit dolor amet",
-        website: "https://nihalmurmu.me",
-        github: "https://github.com/nihalmurmu"
+        title: "Distributed Smart Contract Manager",
+        tags: ["Blockchain", "BigChaindb", "IPFS", "MERN Stack"],
+        note: "",
+        content:
+          "Smartly manage the contacts of one user so that there will be no loss of contact lists, even if the user loses his/her physical device/storage in a complete trustless and distributed environment.",
+        website: "",
+        github: ""
       },
       {
-        title: "Project title 2",
-        tags: ["Tag1", "Tag2", "Tag3"],
-        content: "lorem ipsum sit dolor amet",
-        website: "https://nihalmurmu.me",
-        github: "https://github.com/nihalmurmu"
+        title: "Automata",
+        tags: ["Education", "ReactJS", "finite-state-machine"],
+        note: "Project is in active development phase",
+        content:
+          "Automata is a web application built for playing and interacting with finite state machines with complete hackability and visualization of state machines algorithms.",
+        website: "https://nihalmurmu.me/automata",
+        github: "https://github.com/nihalmurmu/automata"
+      },
+      {
+        title: "Algorithms",
+        tags: ["Education", "ReactJS", "DAA"],
+        note: "Project is in early design phase",
+        content:
+          "Web Application to simulate step-by-step working of dynamic programming algorithms, which will make user easy to visualise and understand various dynamic programming algorithms.",
+        website: "",
+        github: "https://github.com/nihalmurmu/algorithms"
+      },
+      {
+        title: "Goofy-Coin",
+        tags: ["Education", "Blockchain", "Cryptocurrency"],
+        note: "Project is in active development phase",
+        content:
+          "It is a simple web application to show how cryptocurrency wallet and blockchain works for dummies.",
+        website: "",
+        github: "https://github.com/nihalmurmu/goofy-coin"
+      },
+      {
+        title: "Type-Master",
+        tags: ["Typing", "Utilities", "GUI", "Python"],
+        note: "",
+        content:
+          "It is a simple cross-platform GUI desktop application, which will help in improving user typing speed",
+        website: "",
+        github: "https://github.com/nihalmurmu/type-master"
+      },
+      {
+        title: "Hangman-Game",
+        tags: ["Word-game", "GUI", "Python"],
+        note: "",
+        content:
+          "PyHangman is a GUI desktop application for a word guessing game in python, in which the player has to guess the name of a country/movie, provided with some hint about that particular country/movie or movie-song.",
+        website: "",
+        github: ""
       }
     ];
 
@@ -121,7 +161,8 @@ class Projects extends Component {
                 subheader={this.parseTags(value.tags)}
               />
               <CardContent>
-                <Typography component="p">{value.content}</Typography>
+                <Typography variant="caption">{value.note}</Typography>
+                <Typography variant="body1">{value.content}</Typography>
               </CardContent>
             </Card>
           ))}
