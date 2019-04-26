@@ -4,15 +4,17 @@ import { withStyles } from "@material-ui/core/styles";
 import {
   Typography,
   Card,
-  CardActions,
   CardContent,
-  Button
+  CardHeader,
+  IconButton,
+  Tooltip
 } from "@material-ui/core";
+import { Language } from "@material-ui/icons";
 import background from "./project-background.jpeg";
 
 const styles = theme => ({
   root: {
-    backgroundColor: "#31394C",
+    backgroundColor: "#212734",
     backgroundImage: `url(${background})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
@@ -49,9 +51,55 @@ const styles = theme => ({
 });
 
 class Projects extends Component {
+  parseTags = tags => {
+    const bull = " • ";
+    return tags.join(bull);
+  };
+
+  parseAction = (website, github) => {
+    return (
+      <div>
+        {website ? (
+          <Tooltip title="website">
+            <a target="_blank" rel="noopener noreferrer" href={website}>
+              <IconButton style={{ margin: "0px 4px" }}>
+                <Language />
+              </IconButton>
+            </a>
+          </Tooltip>
+        ) : null}
+        {github ? (
+          <Tooltip title="github repository">
+            <a target="_blank" rel="noopener noreferrer" href={github}>
+              <IconButton style={{ margin: "0px 4px" }}>
+                <ion-icon name="logo-github" />
+              </IconButton>
+            </a>
+          </Tooltip>
+        ) : null}
+      </div>
+    );
+  };
+
   render() {
     const { classes } = this.props;
-    const bull = <span className={classes.bullet}>•</span>;
+    const projects = [
+      {
+        title: "Project title 1",
+        tags: ["Tag1", "Tag2", "Tag3"],
+        content: "lorem ipsum sit dolor amet",
+        website: "https://nihalmurmu.me",
+        github: "https://github.com/nihalmurmu"
+      },
+      {
+        title: "Project title 2",
+        tags: ["Tag1", "Tag2", "Tag3"],
+        content: "lorem ipsum sit dolor amet",
+        website: "https://nihalmurmu.me",
+        github: "https://github.com/nihalmurmu"
+      }
+    ];
+
     return (
       <div className={classes.root}>
         <div className={classes.about}>
@@ -65,35 +113,18 @@ class Projects extends Component {
             <hr />
           </Typography>
 
-          <Card className={classes.card} raised>
-            <CardContent>
-              <Typography variant="h5">Project Name 1</Typography>
-              <Typography className={classes.pos} color="textSecondary">
-                Tag1 {bull} Tag2 {bull} Tag3
-              </Typography>
-              <Typography component="p">
-                Brief Introduction about the project
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <Button size="small">Learn More</Button>
-            </CardActions>
-          </Card>
-
-          <Card className={classes.card} raised>
-            <CardContent>
-              <Typography variant="h5">Project Name 2</Typography>
-              <Typography className={classes.pos} color="textSecondary">
-                Tag1 {bull} Tag2 {bull} Tag3
-              </Typography>
-              <Typography component="p">
-                Brief Introduction about the project
-              </Typography>
-            </CardContent>
-            <CardActions>
-              <Button size="small">Learn More</Button>
-            </CardActions>
-          </Card>
+          {projects.map(value => (
+            <Card className={classes.card} raised>
+              <CardHeader
+                action={this.parseAction(value.website, value.github)}
+                title={value.title}
+                subheader={this.parseTags(value.tags)}
+              />
+              <CardContent>
+                <Typography component="p">{value.content}</Typography>
+              </CardContent>
+            </Card>
+          ))}
         </div>
       </div>
     );
