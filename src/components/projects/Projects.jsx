@@ -33,7 +33,10 @@ const styles = theme => ({
     marginBottom: theme.spacing.unit * 5
   },
   aboutContent: {
-    margin: theme.spacing.unit * 5
+    margin: theme.spacing.unit * 5,
+    [theme.breakpoints.down("xs")]: {
+      fontSize: 42 / 16 + "rem"
+    }
   },
   card: {
     margin: theme.spacing.unit * 2,
@@ -47,6 +50,11 @@ const styles = theme => ({
   },
   pos: {
     marginBottom: 12
+  },
+  projectTitle: {
+    [theme.breakpoints.down("xs")]: {
+      fontSize: 20 / 16 + "rem"
+    }
   }
 });
 
@@ -156,6 +164,7 @@ class Projects extends Component {
           {projects.map(value => (
             <Card className={classes.card} raised>
               <CardHeader
+                classes={{ title: classes.projectTitle }}
                 action={this.parseAction(value.website, value.github)}
                 title={value.title}
                 subheader={this.parseTags(value.tags)}
