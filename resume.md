@@ -21,28 +21,28 @@ B.Tech (Information Technology) | Silicon Institute of Technology | B.P.U.T (odi
 ```
 
 ### Projects  
-+ Distributed Smart Contract Manager using Blockchain ```in development```  
-   ``` MERN Stack``` ``` BigChaindb```  ```IPFS```
++ Distributed Smart Contract Manager using Blockchain
+    ```Blockchain``` ``` BigChaindb``` ```IPFS``` ```OAuth``` ```Docker```  ```MERN Stack```
    > The project aims to provide a better approach to the existing cloud-based contact management system using distributed network and computation, involving peer-to-peer sharing.
 
-+ Algorithms ```in development``` ```https://github.com/nihalmurmu/Algorithms```  
-    ```NodeJS``` ```ReactJS```
++ Algorithms ```in development``` ```https://github.com/nihalmurmu/algorithms```  
+    ```Education``` ```ReactJS```
     > Algorithms is a web application which aims to provide you the visualization of various algorithms in an interactive way.
    
-+ Automata Simulator ```in development``` ```https://github.com/nihalmurmu/Automata```  
-    ```NodeJS``` ```ReactJS```
++ Automata Simulator ```in development``` ```https://github.com/nihalmurmu/automata``` ```https://nihalmurmu.me/automata```
+    ```Education``` ```ReactJS```
     > Automata Simulator is a web application which can be used to play with state machine diagram, reducing the time faculties spends drawing and explaining in a step-by-step manner.
 
 + Goofy-Coin ```in development``` ```https://github.com/nihalmurmu/goofy-coin```  
-	```Golang```
+	```Blockchain``` ```Cryptocurrency``` ```Golang```
     > It is a simple web application to show how cryptocurrency wallet and blockchain works for dummies.
     
 + Type-Master ```7 days``` ```https://github.com/nihalmurmu/Type-Master```  
-     ```Python```
+    ```Typing``` ```GUI``` ```Python```
     > It is a simple cross-platform GUI desktop application, which will help in improving user typing speed.
 
 + Hangman-Game ```3 months```  
-    ```Python```
+    ```Game``` ```GUI``` ```Python```
     > PyHangman is a GUI desktop application for a word guessing game in python, in which the player has to guess the name of a country/movie, provided with some hint about that particular country/movie or movie-song.
 
 ### Skills
