@@ -90,7 +90,7 @@ class Projects extends Component {
     const projects = [
       {
         title: "Distributed Smart Contract Manager",
-        tags: ["Blockchain", "BigChaindb", "IPFS", "MERN Stack"],
+        tags: ["Blockchain", "BigChaindb", "IPFS", "OAuth", "Docker", "MERN Stack"],
         note: "",
         content:
           "Smartly manage the contacts of one user so that there will be no loss of contact lists, even if the user loses his/her physical device/storage in a complete trustless and distributed environment.",
@@ -117,7 +117,7 @@ class Projects extends Component {
       },
       {
         title: "Goofy-Coin",
-        tags: ["Education", "Blockchain", "Cryptocurrency"],
+        tags: ["Education", "Blockchain", "Cryptocurrency", "Golang"],
         note: "Project is in active development phase",
         content:
           "It is a simple web application to show how cryptocurrency wallet and blockchain works for dummies.",
