@@ -10,20 +10,25 @@ import {
   withStyles
 } from "@material-ui/core";
 import { Language } from "@material-ui/icons";
-import background from "./project-background.jpeg";
+import background from "./project-background-2.png";
 
 const styles = theme => ({
   root: {
     backgroundColor: "#212734",
     backgroundImage: `url(${background})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
+    backgroundRepeat: "repeat",
+    backgroundSize: "auto",
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
     textAlign: "center",
-    color: "#ffffff"
+    color: "#ffffff",
+    animation: "slide 8s linear infinite"
+  },
+  "@keyframes slide": {
+    from: { backgroundPosition: "0 0" },
+    to: { backgroundPosition: "0 400px" }
   },
   project: {
     width: "100%",
@@ -89,8 +94,24 @@ class Projects extends Component {
     const { classes } = this.props;
     const projects = [
       {
+        title: "2048",
+        tags: ["React Native", "Android", "Game"],
+        note: "Project is in active development phase",
+        content:
+          "2048 is a single-player sliding block puzzle game, The game's objective is to slide numbered tiles on a grid to combine them to create a tile with the number 2048.",
+        website: "",
+        github: "https://github.com/nihalmurmu/2048"
+      },
+      {
         title: "Distributed Smart Contract Manager",
-        tags: ["Blockchain", "BigChaindb", "IPFS", "OAuth", "Docker", "MERN Stack"],
+        tags: [
+          "Blockchain",
+          "BigChaindb",
+          "IPFS",
+          "OAuth",
+          "Docker",
+          "MERN Stack"
+        ],
         note: "",
         content:
           "Smartly manage the contacts of one user so that there will be no loss of contact lists, even if the user loses his/her physical device/storage in a complete trustless and distributed environment.",
@@ -166,7 +187,9 @@ class Projects extends Component {
                 subheader={this.parseTags(value.tags)}
               />
               <CardContent>
-                <Typography variant="caption">{value.note}</Typography>
+                <Typography variant="subtitle2" style={{ color: "red" }}>
+                  {value.note}
+                </Typography>
                 <Typography variant="body1">{value.content}</Typography>
               </CardContent>
             </Card>
