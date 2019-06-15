@@ -89,8 +89,24 @@ class Projects extends Component {
     const { classes } = this.props;
     const projects = [
       {
+        title: "2048",
+        tags: ["React Native", "Android", "Game"],
+        note: "Project is in active development phase",
+        content:
+          "2048 is a single-player sliding block puzzle game, The game's objective is to slide numbered tiles on a grid to combine them to create a tile with the number 2048.",
+        website: "",
+        github: "https://github.com/nihalmurmu/2048"
+      },
+      {
         title: "Distributed Smart Contract Manager",
-        tags: ["Blockchain", "BigChaindb", "IPFS", "OAuth", "Docker", "MERN Stack"],
+        tags: [
+          "Blockchain",
+          "BigChaindb",
+          "IPFS",
+          "OAuth",
+          "Docker",
+          "MERN Stack"
+        ],
         note: "",
         content:
           "Smartly manage the contacts of one user so that there will be no loss of contact lists, even if the user loses his/her physical device/storage in a complete trustless and distributed environment.",
@@ -166,7 +182,7 @@ class Projects extends Component {
                 subheader={this.parseTags(value.tags)}
               />
               <CardContent>
-                <Typography variant="caption">{value.note}</Typography>
+                <Typography variant="subtitle2" style={{color: "red"}}>{value.note}</Typography>
                 <Typography variant="body1">{value.content}</Typography>
               </CardContent>
             </Card>
