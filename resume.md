@@ -21,18 +21,26 @@ B.Tech (Information Technology) | Silicon Institute of Technology | B.P.U.T (odi
 ```
 
 ### Projects  
++ 2048 ```in development``` ```https://github.com/nihalmurmu/2048```  
+    ```React Native``` ```Android``` ```Game``` 
+   > 2048 is a single-player sliding block puzzle game, The game's objective is to slide numbered tiles on a grid to combine them to create a tile with the number 2048.
+        
 + Distributed Smart Contract Manager using Blockchain
-    ```Blockchain``` ``` BigChaindb``` ```IPFS``` ```OAuth``` ```Docker```  ```MERN Stack```
+    ```Blockchain``` ```BigChaindb``` ```IPFS``` ```OAuth``` ```Docker```  ```MERN Stack```
    > The project aims to provide a better approach to the existing cloud-based contact management system using distributed network and computation, involving peer-to-peer sharing.
 
-+ Algorithms ```in development``` ```https://github.com/nihalmurmu/algorithms```  
-    ```Education``` ```ReactJS```
-    > Algorithms is a web application which aims to provide you the visualization of various algorithms in an interactive way.
-   
 + Automata Simulator ```in development``` ```https://github.com/nihalmurmu/automata``` ```https://nihalmurmu.me/automata```
     ```Education``` ```ReactJS```
     > Automata Simulator is a web application which can be used to play with state machine diagram, reducing the time faculties spends drawing and explaining in a step-by-step manner.
 
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
++ Algorithms ```in pre-alpha``` ```https://github.com/nihalmurmu/algorithms```  
+    ```Education``` ```ReactJS```
+    > Algorithms is a web application which aims to provide you the visualization of various algorithms in an interactive way.
+   
 + Goofy-Coin ```in development``` ```https://github.com/nihalmurmu/goofy-coin```  
 	```Blockchain``` ```Cryptocurrency``` ```Golang```
     > It is a simple web application to show how cryptocurrency wallet and blockchain works for dummies.
@@ -51,7 +59,7 @@ B.Tech (Information Technology) | Silicon Institute of Technology | B.P.U.T (odi
     + Willingness to learn								+ Self-Motivation
 ```
 
-### Achievements 
+### Achievements/Extra-Curricular 
 + Completed the Blockchain course under NPTEL (IIT(KGP) in collaboration with IBM)
 + Internship at Forants Interactive Systems Pvt. Ltd.
 + Finalist for the Smart India Hackathon, 2018
@@ -61,19 +69,8 @@ Date of Birth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 Languages Known &nbsp;: ```English``` ```Hindi``` ```Odia```  
 Address &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ```C-7/F, Rail Vihar, Chandrasekharpur, Bhubaneswar, Odisha```  
 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
 
+&nbsp;
 
 Date :  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Place: 
 (&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
