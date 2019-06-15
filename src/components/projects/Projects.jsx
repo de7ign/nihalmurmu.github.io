@@ -10,20 +10,25 @@ import {
   withStyles
 } from "@material-ui/core";
 import { Language } from "@material-ui/icons";
-import background from "./project-background.jpeg";
+import background from "./project-background-2.png";
 
 const styles = theme => ({
   root: {
     backgroundColor: "#212734",
     backgroundImage: `url(${background})`,
-    backgroundRepeat: "no-repeat",
-    backgroundSize: "cover",
+    backgroundRepeat: "repeat",
+    backgroundSize: "auto",
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
     textAlign: "center",
-    color: "#ffffff"
+    color: "#ffffff",
+    animation: "slide 8s linear infinite"
+  },
+  "@keyframes slide": {
+    from: { backgroundPosition: "0 0" },
+    to: { backgroundPosition: "0 400px" }
   },
   project: {
     width: "100%",
@@ -182,7 +187,9 @@ class Projects extends Component {
                 subheader={this.parseTags(value.tags)}
               />
               <CardContent>
-                <Typography variant="subtitle2" style={{color: "red"}}>{value.note}</Typography>
+                <Typography variant="subtitle2" style={{ color: "red" }}>
+                  {value.note}
+                </Typography>
                 <Typography variant="body1">{value.content}</Typography>
               </CardContent>
             </Card>
