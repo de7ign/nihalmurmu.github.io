@@ -18,7 +18,12 @@ const styles = theme => ({
     backgroundImage: `url(${background})`,
     backgroundRepeat: "repeat",
     backgroundSize: "auto",
-    animation: "slide 8s linear infinite"
+    animation: "slide 8s linear infinite",
+
+    [theme.breakpoints.down("xs")]: {
+      backgroundSize: '235px 200px',
+      animation: "slide 16s linear infinite",
+    }
   },
   "@keyframes slide": {
     from: { backgroundPosition: "0 0" },
