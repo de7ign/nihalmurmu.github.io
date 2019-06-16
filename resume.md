@@ -10,7 +10,7 @@
 
 Qualification | College/School | University/Board | Year of Passing | Marks/CGPA
 --- | --- | --- | --- | ---
-B.Tech (Information Technology) | Silicon Institute of Technology | B.P.U.T (odisha) | 2019(pursuing) | 7.71(till 6th sem)
+B.Tech (Information Technology) | Silicon Institute of Technology | B.P.U.T (odisha) | 2019 | 7.73
 12th standard | Kendriya Vidyalaya No. 4 | C.B.S.E | 2015 | 67.9%
 10th standard | Kendriya Vidyalaya No. 4 | C.B.S.E | 2013 | 8.4
 
