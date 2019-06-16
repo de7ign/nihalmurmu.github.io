@@ -14,16 +14,10 @@ import background from "./project-background-2.png";
 
 const styles = theme => ({
   root: {
-    backgroundColor: "#212734",
+    //backgroundColor: "#212734",
     backgroundImage: `url(${background})`,
     backgroundRepeat: "repeat",
     backgroundSize: "auto",
-    display: "flex",
-    flexDirection: "row",
-    alignItems: "center",
-    justifyContent: "center",
-    textAlign: "center",
-    color: "#ffffff",
     animation: "slide 8s linear infinite"
   },
   "@keyframes slide": {
@@ -35,6 +29,15 @@ const styles = theme => ({
     maxWidth: "800px",
     marginTop: theme.spacing.unit * 5,
     marginBottom: theme.spacing.unit * 5
+  },
+  container: {
+    backgroundColor: "rgba(0,0,0,0.65)",
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    textAlign: "center",
+    color: "#ffffff"
   },
   projectContent: {
     margin: theme.spacing.unit * 5,
@@ -167,33 +170,35 @@ class Projects extends Component {
 
     return (
       <div className={classes.root}>
-        <div className={classes.project}>
-          <Typography
-            variant="h2"
-            color="inherit"
-            gutterBottom
-            className={classes.projectContent}
-          >
-            Projects
-            <hr />
-          </Typography>
+        <div className={classes.container}>
+          <div className={classes.project}>
+            <Typography
+              variant="h2"
+              color="inherit"
+              gutterBottom
+              className={classes.projectContent}
+            >
+              Projects
+              <hr />
+            </Typography>
 
-          {projects.map(value => (
-            <Card className={classes.card} raised>
-              <CardHeader
-                classes={{ title: classes.projectTitle }}
-                action={this.parseAction(value.website, value.github)}
-                title={value.title}
-                subheader={this.parseTags(value.tags)}
-              />
-              <CardContent>
-                <Typography variant="subtitle2" style={{ color: "red" }}>
-                  {value.note}
-                </Typography>
-                <Typography variant="body1">{value.content}</Typography>
-              </CardContent>
-            </Card>
-          ))}
+            {projects.map(value => (
+              <Card className={classes.card} raised>
+                <CardHeader
+                  classes={{ title: classes.projectTitle }}
+                  action={this.parseAction(value.website, value.github)}
+                  title={value.title}
+                  subheader={this.parseTags(value.tags)}
+                />
+                <CardContent>
+                  <Typography variant="subtitle2" style={{ color: "red" }}>
+                    {value.note}
+                  </Typography>
+                  <Typography variant="body1">{value.content}</Typography>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
         </div>
       </div>
     );
