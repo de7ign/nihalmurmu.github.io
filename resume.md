@@ -16,8 +16,9 @@ B.Tech (Information Technology) | Silicon Institute of Technology | B.P.U.T (odi
 
 ### Technial Skills
 ```
-    + C                                                     + Core Java
-    + JavaScript                                            + Python 
+    + C                                                     + JavaScript
+    + Python                                                + ReactJS 
+    + ExpressJS                                             + Github
 ```
 
 ### Projects  
