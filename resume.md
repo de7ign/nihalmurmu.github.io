@@ -2,7 +2,6 @@
 
 >website: <https://nihalmurmu.me>  
 >linkedin: <https://linkedin.com/in/nihalmurmu>
->twitter: @nihalmurmu
 
 ---
 
