@@ -1,6 +1,6 @@
 # Nihal Murmu
 
->website: <https://nihalmurmu.me>  
+>portfolio: <https://nihalmurmu.me>  
 >linkedin: <https://linkedin.com/in/nihalmurmu>
 
 ---
@@ -60,8 +60,9 @@ B.Tech (Information Technology) | Silicon Institute of Technology | B.P.U.T (odi
 
 ### Achievements/Extra-Curricular 
 + Completed the Blockchain course under NPTEL (IIT(KGP) in collaboration with IBM)
-+ Internship at Forants Interactive Systems Pvt. Ltd.
-+ Finalist for the Smart India Hackathon, 2018
++ Internship on Blockchain Technology at Forants Interactive Systems Pvt. Ltd.
++ Completed MongoDB Basics from MongoDB University.
++ Finalist for the Smart India Hackathon, 2018.
 
 ### Personal Information
 Date of Birth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ```06-10-1997```  
