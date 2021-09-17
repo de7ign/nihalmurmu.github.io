@@ -1,30 +1,36 @@
 # Nihal Murmu
 
->portfolio: <https://nihalmurmu.me>  
->linkedin: <https://linkedin.com/in/nihalmurmu>
+ > portfolio: https://nihalmurmu.me
+ > email: nhlmrm@gmail.com
+ > linkedin: https://linkedin.com/in/nihalmurmu
+
+---
+
+### Professional Experience
+##### Member Technical
+##### ADP Pvt. Ltd., Hyderabad, India | 09/2019 - Present
+
+* Accelerated enhancements and upgrades to the existing **Spring-boot** applications which deal with orchestrating consumers requests to tax and payroll engines.
+* Supported transitioning and decommissioning of **Spring-boot** based legacy applications as required, ensuring future access needs, retention, and compliance as per business requirements.
+* Coordinated with business users team to serve business users and retain business with the help of a **Spring-mvc** based UI application.
+* Assisted in devising further abstraction to existing consumers via a **Spring-integration** application, which also enabled integration with next gen tax and payroll engine.
+* Assisted in migrating applications from **WebSphere** to **Tomcat**, upgrading from **Java 8** to **11** and moving from properties files based to **Spring-cloud-config** and **Hashicorp password vault**
+* Engineered tools with **Python** to support development and quality assurance team to cut efforts short.
 
 ---
 
 ### Education
++ B.Tech - Information Technology | Silicon Institute of Technology - 2015-19 | 7.73 CGPA
 
-Qualification | College/School | University/Board | Year of Passing | Marks/CGPA
---- | --- | --- | --- | ---
-B.Tech (Information Technology) | Silicon Institute of Technology | B.P.U.T (odisha) | 2019 | 7.73
-12th standard | Kendriya Vidyalaya No. 4 | C.B.S.E | 2015 | 67.9%
-10th standard | Kendriya Vidyalaya No. 4 | C.B.S.E | 2013 | 8.4
 
 ### Technial Skills
 ```
-    + C                                                     + JavaScript
-    + Python                                                + ReactJS 
-    + ExpressJS                                             + Github
+    + Java                      + Spring Boot               + Spring Config
+    + Spring Integration        + ReactJS                   + Git
+    + Python
 ```
 
-### Projects  
-+ ##### 2048
-    ```in development``` ```https://github.com/nihalmurmu/2048```  
-    ```React Native``` ```Android``` ```Game``` 
-   > 2048 is a single-player sliding block puzzle game, The game's objective is to slide numbered tiles on a grid to combine them to create a tile with the number 2048.
+### Projects
         
 + ##### Distributed Smart Contract Manager using Blockchain
     ```Blockchain``` ```BigChaindb``` ```IPFS``` ```OAuth``` ```Docker```  ```MERN Stack```
@@ -35,13 +41,6 @@ B.Tech (Information Technology) | Silicon Institute of Technology | B.P.U.T (odi
     ```Education``` ```ReactJS```
     > Automata Simulator is a web application which can be used to play with state machine diagram, reducing the time faculties spends drawing and explaining in a step-by-step manner.
 
-&nbsp;
-
-+ ##### Goofy-Coin
-    ```in development``` ```https://github.com/nihalmurmu/goofy-coin```  
-	```Blockchain``` ```Cryptocurrency``` ```Golang```
-    > It is a simple web application to show how cryptocurrency wallet and blockchain works for dummies.
-    
 + ##### Type-Master
     ```7 days``` ```https://github.com/nihalmurmu/Type-Master```  
     ```Typing``` ```GUI``` ```Python```
@@ -52,26 +51,12 @@ B.Tech (Information Technology) | Silicon Institute of Technology | B.P.U.T (odi
     ```Game``` ```GUI``` ```Python```
     > PyHangman is a GUI desktop application for a word guessing game in python, in which the player has to guess the name of a country/movie, provided with some hint about that particular country/movie or movie-song.
 
-### Skills
-```
-    + Teamwork Management 								+ Ability to work under pressure
-    + Willingness to learn								+ Self-Motivation
-```
-
 ### Achievements/Extra-Curricular 
 + Completed the Blockchain course under NPTEL (IIT(KGP) in collaboration with IBM)
 + Internship on Blockchain Technology at Forants Interactive Systems Pvt. Ltd.
 + Completed MongoDB Basics from MongoDB University.
 + Finalist for the Smart India Hackathon, 2018.
 
-### Personal Information
-Date of Birth &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: ```06-10-1997```  
-Languages Known &nbsp;: ```English``` ```Hindi``` ```Odia```  
-
-&nbsp;
-&nbsp;
-&nbsp;
 
 Date :  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Place: 
-(&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nihal Murmu
+Nihal Murmu
